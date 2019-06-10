@@ -1,0 +1,21 @@
+table {
+  text-align: center;
+}
+
+.td-child {
+  padding: 8px;
+  width: 24px;
+}
+
+tbody tr:nth-child(2n) {
+  background: #ff8080;
+}
+tbody tr td:nth-child(2n-1) {
+  background: #ff8080;
+}
+
+.th-parent {
+  width: 28px;
+  background: #ffff;
+  font-weight: bold;
+}
